@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import ProfilePic from "../src/assets/ProfilePic.jpg";
-import  phone  from "../src/assets/phone.png";
+import  Phone  from "../src/assets/Phone.png";
 import  whatsapp from "../src/assets/whatsapp.png";
 import  github from "../src/assets/github.png";
 import  x from "../src/assets/x.png";
@@ -23,7 +23,7 @@ import  x from "../src/assets/x.png";
           <li className="card-text2"> Email: {props.items1}</li>
           <li className="card-text2"> Email 2 : {props.items2}</li>
           <li className="card-text2">  <img src={whatsapp} alt=" ProfilePic" /> {props.items3}</li>
-          <li className="card-text2">  <img src={phone} alt=" ProfilePic" /> {props.items4}</li>
+          <li className="card-text2">  <img src={Phone} alt=" ProfilePic" /> {props.items4}</li>
         </ul>
       </div>
 
