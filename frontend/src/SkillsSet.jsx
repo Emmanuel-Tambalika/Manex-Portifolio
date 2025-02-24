@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import ProfilePic from "../src/assets/ProfilePic.jpg";
+
 import  Phone  from "../src/assets/Phone.png";
 import  whatsapp from "../src/assets/whatsapp.png";
 import  github from "../src/assets/github.png";

@@ -3,8 +3,6 @@ import React from 'react';
 
 // Add the correct SkillsSaets Images Here . 
 
-import ProfilePic from "../src/assets/ProfilePic.jpg";
-import Icon from "../src/assets/icon.png";
 import react from "../src/assets/react.svg";
 import express from "../src/assets/express.png";
 import Django from "../src/assets/Django.png";
