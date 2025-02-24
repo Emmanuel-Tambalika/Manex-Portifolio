@@ -223,8 +223,9 @@ label{
 
 /* LandScape  Code   */
 
-/* // Small   */
-@media screen  and (min-width :400px){
+
+/* //  Extra Small   */
+@media screen  and (min-width :400px)    {
   .card2{
     border: 1px solid black;
   border-radius: 2px;
@@ -237,8 +238,8 @@ label{
   justify-content: center;
   background-color: rgba(212, 218, 211, 0.849);
   margin-top: 7px ;
-  margin-left: 0px;
-  font-size: 20px;
+  margin-left: -10px;
+  font-size: 30px;
   }
   .card1{
     border: 1px solid black;
@@ -268,7 +269,7 @@ label{
     justify-content: center;
     background-color: rgb(225, 225, 245);
     margin-top: 30px ;
-    margin-left:10px;
+    margin-left:30px;
     margin-right: 5px;
 
    }
@@ -289,9 +290,17 @@ label{
     margin-left: 0px;
     margin-right:25px;
     }
+    nav img{
+      max-width: 60%;
+      height:220px;
+      width: 300px;
+      border-radius:80%;
+      margin-bottom:10px;
+      margin-left: -27px;
+    }
 }
-/* // Extra -- Small   */
-@media screen  and (min-width :576px){
+/* // Small   */
+@media screen  and (min-width :576px) {
   .card2{
     border: 1px solid black;
   border-radius: 2px;
@@ -356,6 +365,16 @@ label{
     margin-left: 0px;
     margin-right:25px;
     }
+
+    nav img{
+      max-width: 60%;
+      height:220px;
+      width: 300px;
+      border-radius:80%;
+      margin-bottom:10px;
+      margin-left: -20px;
+    }
+    
 }
 /* // Medium  */
 @media screen  and (min-width :768px){

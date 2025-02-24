@@ -10,12 +10,12 @@ export const Projects = () => {
     <div>
    
    <Card ProjectNumber="Project  1" 
-       name="StarStatus" 
+       name="CoreStatus" 
        description=" Through anonymous interaction , we help organizations gather Invaluable and Raw Information from 
        employees and patners that is normally difficult to share due to fear of Social Penalty  . " T
         isDevStatus={false}
         Progress="40%"  
-        items={<a href="">Site Not Live</a> }
+        items={<a href=""> Live Sooner </a> }
         />
         
         <Card ProjectNumber="Project 2 " 
@@ -26,7 +26,7 @@ export const Projects = () => {
            seamlessly manage the process. " 
         isDevStatus={false} 
         Progress="35%"
-        items={<a href=""> Site Not Live</a> }
+        items={<a href="">Live Soon</a> }
         /> 
 
         
@@ -36,7 +36,7 @@ export const Projects = () => {
          Audio is powerful yet not fully utilized and optimized .High quality content can be created in a short space of time with less logistics involved ."  
        isDevStatus={false} 
        Progress="<10%"
-       items={<a href="">Site Not Live</a> }
+       items={<a href="">Live Soon</a> }
        /> 
          
         <Card ProjectNumber="Project  4" 
@@ -45,7 +45,7 @@ export const Projects = () => {
         journery's. More  Youth can win  if the ecosystem is healthy and supportive . " 
         isDevStatus={false}
         Progress="<10%" 
-        items={<a href="">Site Not Live</a> }
+        items={<a href="">Live Soon</a> }
 
         /> <Card
 
@@ -58,7 +58,7 @@ export const Projects = () => {
         unlimited number of books using just the fraction of the money . "  
         isDevStatus={false} 
         Progress= "<10%"
-        items={<a href=""> Site Not Live</a> }
+        items={<a href="">Live Soon </a> }
       
         /> 
 
@@ -68,7 +68,7 @@ export const Projects = () => {
        their life to other anonymous  users.Those seeking help will benefit from the feedback shared by other  users available on the platform  " 
         isDevStatus={false}
         Progress="<10%"
-        items={<a href="">Site Not Live</a> }
+        items={<a href=""> Live Soon </a> }
         /> 
           <SkillsSet 
             heading="Contact and Ref. "

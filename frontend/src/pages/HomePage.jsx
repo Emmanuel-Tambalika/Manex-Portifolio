@@ -13,7 +13,6 @@ const HomePage = () => {
               items1="Express.js"
               items2="MongoDb"
               items3="TailwindCss"
-              items4="Next.js"
               items5="Django"
               items6="SQL"
               items7="JavaScript"
