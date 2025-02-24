@@ -11,7 +11,7 @@ import Django from "../src/assets/Django.png";
 import  MongoDb from "../src/assets/MongoDb.png";
 import  PhP from "../src/assets/PhP.png";
 import  SQL from "../src/assets/SQL.png";
-import python from "../src/assets/python.png";
+import Python from "../src/assets/Python.png";
 import TailWindCss from "../src/assets/TailWindCss.png";
 import ReNative from "../src/assets/ReNative.png"
 import javaScript from "../src/assets/javascript.png";
@@ -33,7 +33,7 @@ import javaScript from "../src/assets/javascript.png";
           <li className="card-text3">  {props.items6}<img src={SQL} alt="SQL" /></li>
           <li className="card-text2">  {props.items7} <img src={javaScript} alt="javaScript" /></li> 
           <li className="card-text3">  {props.items8}<img src={PhP} alt=" PHP" /> </li>
-          <li className="card-text2">   {props.items9}<img src={python} alt="python" /> </li>
+          <li className="card-text2">   {props.items9}<img src={Python} alt="python" /> </li>
          
           <li className="card-text2"> {props.items11}<img src={ReNative} alt=" Icon" /> </li>
          
