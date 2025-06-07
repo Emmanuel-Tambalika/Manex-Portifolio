@@ -10,11 +10,11 @@ npm i react-router-dom axios react-cookie
 
 For the BackEnd Application.
 npm init -y
-type-> clear in command Line .
+type-> clear in command Line .  
 inside json file insert: "type":"module" below desctption.
 
 // next install express and nodemon .
-npm i express nodemon bcrypt cors jsonwebtoken mongoose
+npm i express nodemon bcryptjs cors jsonwebtoken mongoose
 
 type-> clear in command Line  on success .
 inside json file  under Script remove the following:
