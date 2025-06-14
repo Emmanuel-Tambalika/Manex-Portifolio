@@ -6,18 +6,14 @@ export const LivePro = () => {
 
   return (
     <div>
-    
        <Card ProjectNumber="Project  1"
-        name="OdioGram"
-         description ="Short form audio media platform.Support audio as the main medium of communication. 
-         Audio is powerful yet not fully utilized and optimized .High quality content can be created in a short space of time with less logistics involved ."  
-       isDevStatus={false} 
-       Progress="<10%"
-       items={<a href="">Live Soon</a> }
-       /> 
-         
+        name="LessonHunt"
+         description ="a unique platform where every life experience becomes a valuable lesson. Share your stories anonymously or openly, and inspire a global community eager to learn and grow together.Connect, reflect, and empower others through the wisdom you’ve gained on your journey."  
+       isDevStatus={false}  
+       Progress="80%"
+       items={<a href= "https://lessonhunt.netlify.app/">Visit Site</a> }
+       />   
     </div>
-
   )
 }
 export default LivePro ;
