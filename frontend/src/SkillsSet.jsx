@@ -8,7 +8,7 @@ const SkillsSet = (props) => {
     <div className="main-div1">
       <div className="card1">
         <h2 className="header1">{props.heading}</h2>
-        <ul className="contact-list">
+        <ul className="skills-grid1">
           <li className="card-text2">
             <img src={Github} alt="GitHub Profile" className="icon" /> {props.items}
           </li>

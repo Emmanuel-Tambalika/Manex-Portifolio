@@ -126,8 +126,8 @@ nav ul li a:hover {
 
 /* Specific Card Adjustments */
 .card1 {
-  max-width: 450px;
-  max-height: 870px;
+  max-width: 1070px;
+  max-height: 1000px;
   box-shadow: 5px 3px 5px rgba(26, 36, 36, 0.6);
 }
 
@@ -295,6 +295,25 @@ label {
   .View-Page1 {
     margin-left: 0;
   }
+}
+
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px; /* space between items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-grid1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px; /* space between items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Medium screens: 2 cards per row */

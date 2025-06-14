@@ -25,7 +25,7 @@ const SkillsImages = (props) => {
     { label: props.items11, icon: ReNative, alt: "React Native" },
   ];
 
-  return (
+      return (
     <div className="main-div1">
       <div className="card1">
         <h2 className="header1">{props.heading}</h2>
@@ -38,7 +38,7 @@ const SkillsImages = (props) => {
                 className="skill-icon"
                 loading="lazy"
               />
-              <span className="skill-label">{skill.label}</span>
+                <span className="skill-label">{skill.label}</span>
             </li>
           ))}
         </ul>

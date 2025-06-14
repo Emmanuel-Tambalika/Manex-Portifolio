@@ -52,7 +52,7 @@ const HomePage = () => {
       </div>
 
       {/* Skills Section */}
-      <div ref={skillsRef} className="mt-10">
+      <div ref={skillsRef} className="mt-30">
         <SkillsImages
           heading="Skillsets"
           items="React.js"
@@ -69,7 +69,7 @@ const HomePage = () => {
       </div>
 
       {/* Contact Section */}
-      <div ref={contactRef} className="contact-section section-container">
+      <div ref={contactRef} className="contact-section section-container mt-30">
         <SkillsSet
           heading="Contact and Ref."
           items={<a href="https://github.com/Emmanuel-Tambalika">GitHub</a>}
