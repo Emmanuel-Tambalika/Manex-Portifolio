@@ -148,6 +148,14 @@ nav ul li a:hover {
 }
 
 /* Card Text Variants */
+
+.card-text6{
+  background-color: rgb(164, 164, 223);
+  font-size: 1.2rem;
+  margin-left: 10%;
+  margin-right: 20%;
+  border-radius: 25rem;
+}
 .card .card-text,
 .card .card-text2,
 .card .card-text3,

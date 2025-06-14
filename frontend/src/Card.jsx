@@ -11,9 +11,9 @@ const Card = (props) => {
       </p>
       <p className="card-text5">Progress: {props.Progress}</p>
 
-      <button className="View-Page" type="button">
-        <span className="card-text">{props.items}</span>
-      </button>
+     
+        <button className="card-text6">{props.items}</button>
+     
     </div>
   );
 };
