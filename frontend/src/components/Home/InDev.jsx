@@ -1,78 +1,77 @@
-import React  from 'react';
+import React from 'react';
 import Card from '../../Card';
-import SkillsSet from '../../SkillsSet';
-   
-export const InDev = () => {
 
-  return (
-    <div className='cards-wrapper'>
-   
-   <Card ProjectNumber="Project  2" 
-       name="CoreStatus" 
-       description=" Through anonymous interaction , we help organizations gather Invaluable and Raw Information from 
-       employees and patners that is normally difficult to share due to fear of Social Penalty  . " T
-        isDevStatus={false}
-        Progress="40%"  
-        items={<a href=""> Live Sooner </a> }
-        />
-         
-        <Card ProjectNumber="Project 3 " 
-        name="InternUp" 
-        description=" Helps organization manage their Internship Placements . Instead of just 
-        responding to Students that reach out to them they can prospect students of choice using
-         effective tools. Students easily connect with many potential intership  opportunities and
-           seamlessly manage the process. " 
-        isDevStatus={false} 
-        Progress="35%"
-        items={<a href="">Live Soon</a> }
-        /> 
+export const InDev = () => (
+  <div
+    className="cards-wrapper"
+    style={{
+      display: 'grid',
+      gap: '2rem',
+      gridTemplateColumns: "repeat(1, 1fr)",
+      margin: "0 auto",
+      width: "100%",
+      maxWidth: 1050,
+    }}
+  >
+    <Card
+      ProjectNumber="Project 2"
+      name="CoreStatus"
+      description="Through anonymous interaction, we help organizations gather invaluable and raw feedback from employees and partners that is normally difficult to share due to fear of social penalty."
+      isDevStatus={false}
+      Progress="40%"
+      items={<a href="#" style={{ color: "#356cf5", textDecoration: "underline" }}>Live Soon</a>}
+    />
+    <Card
+      ProjectNumber="Project 3"
+      name="InternUp"
+      description="Helps organizations manage their internship placements. Instead of only responding to students who reach out, they can prospect suitable students and manage the process easily."
+      isDevStatus={false}
+      Progress="35%"
+      items={<a href="#" style={{ color: "#356cf5", textDecoration: "underline" }}>Live Soon</a>}
+    />
+    <Card
+      ProjectNumber="Project 4"
+      name="OdioGram"
+      description="A short-form audio media platform. Supports audio as the main medium of communication, making high-quality content creation quick and less logistically demanding."
+      isDevStatus={false}
+      Progress="<10%"
+      items={<a href="#" style={{ color: "#356cf5", textDecoration: "underline" }}>Live Soon</a>}
+    />
+    <Card
+      ProjectNumber="Project 4"
+      name="YouthFul"
+      description="A social media platform connecting youth around the globe, helping them network and support each other. More youth can succeed if the ecosystem is supportive."
+      isDevStatus={false}
+      Progress="<10%"
+      items={<a href="#" style={{ color: "#356cf5", textDecoration: "underline" }}>Live Soon</a>}
+    />
+    <Card
+      ProjectNumber="Project 5"
+      name="Writeful"
+      description="Digitally connects writers and readers. Writers reach new markets and enjoy recurring income while readers get unlimited books via subscription."
+      isDevStatus={false}
+      Progress="<10%"
+      items={<a href="#" style={{ color: "#356cf5", textDecoration: "underline" }}>Live Soon</a>}
+    />
+    <Card
+      ProjectNumber="Project 6"
+      name="HotTopic"
+      description="Allows anonymous users to share sensitive topics and get feedback from others. Helpful for those seeking advice or support online."
+      isDevStatus={false}
+      Progress="<10%"
+      items={<a href="#" style={{ color: "#356cf5", textDecoration: "underline" }}>Live Soon</a>}
+    />
+    {/* Responsive columns */}
+    <style>{`
+      @media (min-width: 730px) {
+        .cards-wrapper { grid-template-columns: repeat(2, 1fr) !important;}
+      }
+      @media (min-width: 1050px) {
+        .cards-wrapper { grid-template-columns: repeat(3, 1fr) !important;}
+      }
+    `}</style>
+  </div>
+);
 
-        
-       <Card ProjectNumber="Project  4"
-        name="OdioGram"
-         description ="Short form audio media platform.Support audio as the main medium of communication. 
-         Audio is powerful yet not fully utilized and optimized .High quality content can be created in a short space of time with less logistics involved ."  
-       isDevStatus={false} 
-       Progress="<10%"
-       items={<a href="">Live Soon</a> }
-       /> 
-         
-        <Card ProjectNumber="Project  4" 
-       name="YouthFul" 
-       description=" A social media platform connecting Youth around the globe. Allowing them to network and support each other in their early
-        journery's. More  Youth can win  if the ecosystem is healthy and supportive . " 
-        isDevStatus={false}
-        Progress="<10%" 
-        items={<a href="">Live Soon</a> }
+export default InDev;
 
-        /> <Card
-
-
-        ProjectNumber="Project   5"
-        name="Writeful" 
-        description=" Digitally connects Writers and Readers. 
-        Writers publish online exploring new, untapped markets receiving recurring revenue as Readers
-       now access the books through subscription. Readers will interact with
-        unlimited number of books using just the fraction of the money . "  
-        isDevStatus={false} 
-        Progress= "<10%"
-        items={<a href="">Live Soon </a> }
-      
-        /> 
-
-<Card ProjectNumber="Project  6" 
-       name="HotTopic" 
-       description="  Allow Anonymous users online share sensitive topics happening in 
-       their life to other anonymous  users.Those seeking help will benefit from the feedback shared by other  users available on the platform  " 
-        isDevStatus={false}
-        Progress="<10%"
-        items={<a href=""> Live Soon </a> }
-        /> 
-          
-    </div>
-
-
-
-  )
-}
-export default InDev ;
